@@ -199,8 +199,8 @@ input, select, textarea {
 			h1.major:after {
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -ms-linear-gradient(to right, #5e42a6, #a37793);
+				background-image: linear-gradient(to right, #d00000, #da7900);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2534,7 +2534,7 @@ input, select, textarea {
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
-			background: rgb(243, 73, 22);/* color fondo icono */
+			background: rgba(255, 89, 0, 0.731);/* color fondo icono */
 			border-radius: 100%;
 			color: #312450;
 			text-align: center;
@@ -2543,7 +2543,7 @@ input, select, textarea {
 		}
 
 			.icon.major:before {
-				font-size: 1.25em;
+				font-size: 1.55em;
 			}
 
 				.wrapper.style1 .icon.major:before {
@@ -3016,6 +3016,7 @@ input, select, textarea {
 		-ms-flex-direction: row;
 		flex-direction: row;
 		min-height: 22.5em;
+		
 	}
 
 		body.is-ie .spotlights > section {
@@ -3029,6 +3030,7 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			width: 25em;
+			
 		}
 
 			.spotlights > section > .image img {
@@ -3050,6 +3052,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
+				
 			}
 
 		.spotlights > section > .content {
@@ -3068,6 +3071,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 50em;
 			-ms-flex: 1;
+			
 		}
 
 			.spotlights > section > .content > .inner {
@@ -3093,6 +3097,7 @@ input, select, textarea {
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
 			opacity: 1;
+			
 		}
 
 		.spotlights > section.inactive > .content > .inner,
@@ -3390,7 +3395,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color:rgba(255, 89, 0, 0.931) ;
+		background-color:rgba(255, 89, 0, 0.731) ;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3786,9 +3791,9 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right,rgba(46, 46, 46, 0.931) ,rgba(46, 46, 46, 0.931) );
-				background-image: -webkit-linear-gradient(to right,rgba(46, 46, 46, 0.931) ,rgba(46, 46, 46, 0.931) );
-				background-image: -ms-linear-gradient(to right,rgba(46, 46, 46, 0.931) ,rgba(46, 46, 46, 0.931) );
+				background-image: -moz-linear-gradient(to right, #d00000, #da7900 );
+				background-image: -webkit-linear-gradient(to right, #d00000, #da7900 );
+				background-image: -ms-linear-gradient(to right, #d00000, #da7900 );
 				background-image: linear-gradient(to right, );
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
@@ -3944,4 +3949,30 @@ input, select, textarea {
 	display: flex;
 	justify-content:space-around;
 	
+}
+.subtitulo {
+	color:rgba(255, 89, 0, 0.731) !important;
+	
+}
+.projectH3 {
+	padding:20px  !important;
+	color:rgba(255, 89, 0, 0.931) !important;
+}
+
+.contact {
+	margin:0.5em 0 0 0;
+}
+
+.project {
+	margin:20px  !important;
+}
+
+.headsinglepage {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.video {
+	width: 100%;
 }
